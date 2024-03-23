@@ -96,3 +96,52 @@ ul li {
   width: 130px;
   text-align: center;
 }
+.quote {
+  height: 300px;
+  padding: 0 450px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+q {
+  width: 600px;
+}
+.cite {
+  align-self: flex-end;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 100px 250px;
+}
+
+.contact-container {
+  padding: 50px 250px;
+  display: flex;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: #f9faf8;
+}
+.contact-text {
+  padding-right: 150px;
+}
+.contact-title {
+  font-weight: 500;
+}
+.contact-subtext {
+  font-weight: 200;
+}
+.btn button {
+  text-align: center;
+  padding: 8px 40px;
+  border: 3px solid white;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
